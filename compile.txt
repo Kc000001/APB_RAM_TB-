@@ -1,0 +1,19 @@
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+Start time: 16:57:04 on Feb 28,2025
+vlog -sv ./TB/apb_testbench.sv -l compile.txt 
+** Note: (vlog-2286) ./TB/apb_testbench.sv(4): Using implicit +incdir+C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package apb_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Warning: ** while parsing file included at ./TB/apb_testbench.sv(9)
+** at .\TB\apb_if.sv(4): (vlog-2962) A non-IEEE 1800-2012-compliant identifier was used to define a macro: '`'.
+-- Compiling package apb_testbench_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package apb_pkg
+-- Compiling interface apb_if
+-- Compiling module apb_ram
+-- Compiling module apb_testbench
+
+Top level modules:
+	apb_testbench
+End time: 16:57:05 on Feb 28,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1

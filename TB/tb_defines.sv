@@ -1,0 +1,6 @@
+`define DATA_WIDTH 8 
+`define ADDR_WIDTH 8
+`define APB_RAM_SIZE 64 
+`define APB_EN_WAIT_DELAY_FUNC 1
+`define APB_MIN_RAND_WAIT_CYC 1
+`define APB_MAX_RAND_WAIT_CYC 2
